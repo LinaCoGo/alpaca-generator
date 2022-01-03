@@ -1,0 +1,98 @@
+body {
+  background-color: #eeeeee;
+  padding: 40px 40px;
+  margin: 30px;
+  background-clip: content-box;
+}
+
+h1 {
+  color: #011836;
+  font-family: "Bakbak One", cursive;
+  padding-bottom: 5%;
+}
+
+h4 {
+  color: #011836;
+  font-family: "Bakbak One", cursive;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.outsideContainer {
+  position: relative;
+}
+
+.leftSide {
+  width: 45%;
+  position: absolute;
+  left: 0;
+}
+
+.background {
+  z-index: -1;
+  position: relative;
+}
+
+.ears,
+.neck,
+.leg {
+  z-index: 0;
+  left: 5%;
+  position: absolute;
+}
+
+.mouth,
+.eyes,
+.accessories {
+  z-index: 5;
+  position: absolute;
+  left: 5%;
+}
+
+.nose {
+  z-index: 2;
+  position: absolute;
+  left: 5%;
+}
+
+.hair {
+  z-index: 3;
+  left: 0.7%;
+  position: absolute;
+}
+
+.leftButtons {
+  margin-top: 10%;
+}
+
+.randomBtn {
+  width: 45%;
+  float: left;
+  margin-bottom: 10%;
+}
+
+.downloadBtn {
+  width: 45%;
+  float: right;
+  margin-bottom: 10%;
+}
+
+.rightSide {
+  width: 55%;
+  position: relative;
+  padding-left: 5%;
+  left: 45%;
+}
+
+.rightSide Button {
+  border-radius: 20px;
+  margin-bottom: 8px;
+  margin-right: 3px;
+}
+
+.style {
+  padding-top: 20px;
+}
